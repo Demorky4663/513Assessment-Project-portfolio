@@ -1,0 +1,427 @@
+
+/*********************************************************************************/
+/*背景图片                                                                    */
+/*********************************************************************************/
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #07a657;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15pt;
+    color: rgba(0,0,0,.6);
+    background-image: url("product-images/background.jpg");
+}
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    color: #157a49;
+}
+
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+    overflow: hidden;
+    background-image: url("product-images/logo.png");
+    background-size:260px 200px;
+    background-repeat:no-repeat;
+    /*background: #C73399 url(images/overlay.png) repeat;*/
+}
+
+#header
+{
+    text-align: center;
+}
+
+.container
+{
+    margin: 0px auto;
+    width: 1200px;
+    overflow: hidden;
+    padding: 0em 0em 5em 0em;
+    
+}
+/*********************************************************************************/
+/* 导航栏                                                                    */
+/*********************************************************************************/
+#menu
+{
+    height: 60px;
+}
+
+#menu ul
+{
+    display: inline-block;
+    padding: 0em 2em;
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+
+#menu li a, #menu li span
+{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    outline: 0;
+    color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+    background: #FFF;
+    color: #cbce14;
+}
+
+
+.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin: 20px 0;
+  }
+  
+  .list li a {
+    color: rgb(34, 31, 31);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+
+.wrapper
+{
+    overflow: hidden;
+    padding: 0em 0em 5em 0em;
+    background: rgb(255, 255, 255);
+}
+
+#wrapper1
+{
+    background: #FFF;
+}
+
+#wrapper2
+{
+    overflow: hidden;
+    background: #F3F3F3;
+    padding: 5em 0em;
+    text-align: center;
+}
+
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+    margin-bottom: 3em;
+    background-image: url();
+}
+
+.title h2
+{
+    font-size: 2.8em;
+}
+
+.title .byline
+{
+    font-size: 1.1em;
+    color: #6F6F6F;
+}
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+    padding: 8em 0em 4em 0em;
+}
+
+#logo h1
+{
+    display: inline-block;
+    margin-bottom: 0.20em;
+    padding: 0.20em 0.9em;
+    font-size: 3.5em;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,1);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.8);
+}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+#welcome
+{
+    overflow: hidden;
+    width: 1000px;
+    padding: 6em 100px 0em 100px;
+    text-align: center;
+}
+
+#welcome .content
+{
+    padding: 0em 8em;
+}
+
+
+
+/*********************************************************************************/
+/* three-column                                                                   */
+/*********************************************************************************/
+
+#three-column
+{
+    overflow: hidden;
+    margin-top: 5em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+#three-column h2
+{
+    margin: 1em 0em;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#three-column .icon
+{
+    position: relative;
+    display: block;
+    margin: 0px auto 0.80em auto;
+    background: none;
+    line-height: 150px;
+    font-size: 4em;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 6px solid #0bb29c;
+    text-align: left;
+    color: #FFF;
+    
+}
+    
+#three-column #tbox1,
+#three-column #tbox2,
+#three-column #tbox3
+{
+    float: left;
+    width: 320px;
+    padding: 80px 40px 80px 40px;
+}
+
+#three-column .title
+{
+    text-align: left;
+}
+
+#three-column .title h2
+{
+    font-size: 1.60em;
+}
+
+#three-column .title .byline
+{
+    padding-top: 0.50em;
+    font-size: 0.90em;
+    color: #858585;
+}
+
+#three-column .arrow-down
+{
+    border-top-color: #292929;
+}
+
+/*********************************************************************************/
+/* footer                                                               */
+/*********************************************************************************/
+
+.footer2 { 
+    position: fixed; 
+    left: 10px; 
+    bottom: 5px; 
+    width: 100%; 
+    background-color: rgb(136, 209, 58); 
+    color: white;
+     text-align: center; 
+     font-size: 20pt;
+    } 
+
+
+/*********************************************************************************/
+/* button                                                           */
+/*********************************************************************************/
+
+    .button3 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+/*********************************************************************************/
+/*ul                                             */
+/*********************************************************************************/
+
+ul.contact
+{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+
+ul.contact li
+{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+
+ul.contact li span
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact li a
+{
+    color: #FFF;
+}
+
+ul.contact li a:before
+{
+    display: inline-block;
+    background: #4cb974;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+
+
+/*********************************************************************************/
+/* 新增                                                                     */
+/*********************************************************************************/
+
+
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .open-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav.visible {
+    transform: translateX(0);
+  }
+  
+  .nav-black {
+    background-color: rgb(34, 31, 31);
+    width: 60%;
+    max-width: 480px;
+    min-width: 320px;
+    transition-delay: 0.4s;
+  }
+  
+  .nav-black.visible {
+    transition-delay: 0s;
+  }
+  
+  .nav-red {
+    background-color: rgb(229, 9, 20);
+    width: 95%;
+    transition-delay: 0.2s;
+  }
+  
+  .nav-red.visible {
+    transition-delay: 0.2s;
+  }
+  
+  .nav-white {
+    background-color: #fff;
+    width: 95%;
+    padding: 40px;
+    position: relative;
+    transition-delay: 0s;
+  }
+  
+  .nav-white.visible {
+    transition-delay: 0.4s;
+  }
+  
+  .close-btn {
+    opacity: 0.3;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+  }
+  
